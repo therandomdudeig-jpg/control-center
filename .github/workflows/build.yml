@@ -19,6 +19,7 @@ jobs:
 
       - name: Build Debug APK
         run: |
+          cd app
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
 
